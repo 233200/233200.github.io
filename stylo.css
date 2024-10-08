@@ -1,0 +1,25 @@
+body {
+    background-color: #98ff98; /* Color menta */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+h1 {
+    color: white;
+    font-size: 3em; /* Tamaño de título */
+    margin-bottom: 20px; /* Espacio entre el título y la imagen */
+}
+
+.planet-container {
+    display: flex;
+    justify-content: center;
+}
+
+.planet-image {
+    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
